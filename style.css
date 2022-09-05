@@ -59,11 +59,11 @@ body{
     background-size: cover;
 }
 
-.container .panel .h3{
+.h3{
     position: absolute;
     color: white;
     left: 20px;
-    bottom: 70px;
+    bottom: 25px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
@@ -74,7 +74,7 @@ body{
     -o-transition: opacity .3s ease-out .1s;
 }
 
-.container .panel .text{
+.text{
     position: absolute;
     color: white;
     left: 20px;
@@ -89,21 +89,21 @@ body{
     -o-transition: opacity .3s ease-out .1s;
 }
 
-.container .panel .text a{
+.text a{
     text-decoration: none;
     color: #04f1fe;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container .panel .text a:hover{
+.text a:hover{
     color: #37e25c;
 }
 
-.container .panel.active{
+.panel.active{
     flex-basis: 68%;
 }
 
-.container .panel.active .h3, 
-.container .panel.active .text{
+.panel.active .h3, 
+.panel.active .text{
     opacity: 1;
 }
